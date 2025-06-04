@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>הדף בבניה</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="המסעדה של השף אושר אלוק - הכריכים הכי טעימים בעיר!">
+  <meta name="keywords" content="אוכל, כריכים, שף אושר אלוק, מסעדה, אוכל רחוב, אוכל טעים">
+      <link rel="icon" href="https://i.postimg.cc/hPRtFwPs/Whats-App-2025-06-04-21-19-33-19abbfd9.jpg" type="image/png">
+  <title>הכריכים של אושר אלוק</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Heebo', sans-serif;
+      background-color: #fffef7;
+      color: #333;
+    }
+    header {
+      background-color: transparent;
+      height: 50vh;
+      background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .menu-item {
+      border: 1px solid #eee;
+      padding: 1rem;
+      border-radius: 12px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .menu-item h3 {
+      margin-top: 0;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1rem;
+    }
+    .social-links a {
+      color: #333;
+      font-size: 1.2rem;
+      text-decoration: none;
+      background: #f0f0f0;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .social-links a:hover {
+      background: #ddd;
+    }
+  </style>
 </head>
 <body>
-    <h1>הדף בבניה</h1>
-      <h2>נועם נפתלי</h2>
+  <header>
+    <h1>הכריכים של אושר אלוק</h1>
+  </header>
+
+  <section class="section" id="menu">
+    <h2>התפריט שלנו</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>כריך שניצל קראנצ׳י</h3>
+        <p>שניצל עוף עסיסי בציפוי פריך, חסה, עגבניה, ורטבים מיוחדים.</p>
+      </div>
+      <div class="menu-item">
+        <h3>כריך חביתה ישראלית</h3>
+        <p>חביתה טרייה, סלט ירקות קצוץ, טחינה וסחוג.</p>
+      </div>
+      <div class="menu-item">
+        <h3>כריך אנטריקוט</h3>
+        <p>פרוסות אנטריקוט צרוב, בצל מקורמל, חרדל דיז'ון.</p>
+      </div>
+      <div class="menu-item">
+        <h3>כריך טבעוני</h3>
+        <p>קציצת עדשים, אבוקדו, עגבניה, חסה וממרח שום.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>צור קשר</h2>
+    <p>נשמח לדבר איתכם, לענות על שאלות ולקבל הזמנות!</p>
+    <div class="social-links">
+      <a href="https://wa.me/972509180791" target="_blank">📱 וואטסאפ</a>
+      <a href="https://www.instagram.com/osheriluk" target="_blank">📸 אינסטגרם</a>
+    </div>
+  </section>
 </body>
 </html>
